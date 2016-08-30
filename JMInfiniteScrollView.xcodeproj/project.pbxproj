@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05067D401D75612300FD2840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05067D3F1D75612300FD2840 /* main.m */; };
+		05067D431D75612300FD2840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05067D421D75612300FD2840 /* AppDelegate.m */; };
+		05067D461D75612300FD2840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05067D451D75612300FD2840 /* ViewController.m */; };
+		05067D491D75612300FD2840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05067D471D75612300FD2840 /* Main.storyboard */; };
+		05067D4B1D75612300FD2840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05067D4A1D75612300FD2840 /* Assets.xcassets */; };
+		05067D4E1D75612300FD2840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05067D4C1D75612300FD2840 /* LaunchScreen.storyboard */; };
+		05067D591D75612300FD2840 /* JMInfiniteScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05067D581D75612300FD2840 /* JMInfiniteScrollViewTests.m */; };
+		05067D641D75612300FD2840 /* JMInfiniteScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05067D631D75612300FD2840 /* JMInfiniteScrollViewUITests.m */; };
+		05067D731D75615C00FD2840 /* YBInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05067D721D75615C00FD2840 /* YBInfiniteScrollView.m */; };
+		631261A0A6E18A919E295C62 /* libPods-JMInfiniteScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB8A2B200ACEC3A25259D0E /* libPods-JMInfiniteScrollView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05067D551D75612300FD2840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05067D331D75612300FD2840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05067D3A1D75612300FD2840;
+			remoteInfo = JMInfiniteScrollView;
+		};
+		05067D601D75612300FD2840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05067D331D75612300FD2840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05067D3A1D75612300FD2840;
+			remoteInfo = JMInfiniteScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05067D3B1D75612300FD2840 /* JMInfiniteScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMInfiniteScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05067D3F1D75612300FD2840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05067D411D75612300FD2840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05067D421D75612300FD2840 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05067D441D75612300FD2840 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05067D451D75612300FD2840 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05067D481D75612300FD2840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05067D4A1D75612300FD2840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05067D4D1D75612300FD2840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05067D4F1D75612300FD2840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05067D541D75612300FD2840 /* JMInfiniteScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMInfiniteScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05067D581D75612300FD2840 /* JMInfiniteScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMInfiniteScrollViewTests.m; sourceTree = "<group>"; };
+		05067D5A1D75612300FD2840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05067D5F1D75612300FD2840 /* JMInfiniteScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMInfiniteScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05067D631D75612300FD2840 /* JMInfiniteScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMInfiniteScrollViewUITests.m; sourceTree = "<group>"; };
+		05067D651D75612300FD2840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05067D711D75615C00FD2840 /* YBInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBInfiniteScrollView.h; sourceTree = "<group>"; };
+		05067D721D75615C00FD2840 /* YBInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBInfiniteScrollView.m; sourceTree = "<group>"; };
+		1BB8A2B200ACEC3A25259D0E /* libPods-JMInfiniteScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JMInfiniteScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4310C92DA25DAE1F04749364 /* Pods-JMInfiniteScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMInfiniteScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMInfiniteScrollView/Pods-JMInfiniteScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		BD0D5CED929780EB415A7795 /* Pods-JMInfiniteScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMInfiniteScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMInfiniteScrollView/Pods-JMInfiniteScrollView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05067D381D75612300FD2840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631261A0A6E18A919E295C62 /* libPods-JMInfiniteScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05067D511D75612300FD2840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05067D5C1D75612300FD2840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05067D321D75612300FD2840 = {
+			isa = PBXGroup;
+			children = (
+				05067D3D1D75612300FD2840 /* JMInfiniteScrollView */,
+				05067D571D75612300FD2840 /* JMInfiniteScrollViewTests */,
+				05067D621D75612300FD2840 /* JMInfiniteScrollViewUITests */,
+				05067D3C1D75612300FD2840 /* Products */,
+				498F42239CC5813F622D7615 /* Pods */,
+				751927AA58B8E193D8CB9D30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05067D3C1D75612300FD2840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05067D3B1D75612300FD2840 /* JMInfiniteScrollView.app */,
+				05067D541D75612300FD2840 /* JMInfiniteScrollViewTests.xctest */,
+				05067D5F1D75612300FD2840 /* JMInfiniteScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05067D3D1D75612300FD2840 /* JMInfiniteScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				05067D711D75615C00FD2840 /* YBInfiniteScrollView.h */,
+				05067D721D75615C00FD2840 /* YBInfiniteScrollView.m */,
+				05067D411D75612300FD2840 /* AppDelegate.h */,
+				05067D421D75612300FD2840 /* AppDelegate.m */,
+				05067D441D75612300FD2840 /* ViewController.h */,
+				05067D451D75612300FD2840 /* ViewController.m */,
+				05067D471D75612300FD2840 /* Main.storyboard */,
+				05067D4A1D75612300FD2840 /* Assets.xcassets */,
+				05067D4C1D75612300FD2840 /* LaunchScreen.storyboard */,
+				05067D4F1D75612300FD2840 /* Info.plist */,
+				05067D3E1D75612300FD2840 /* Supporting Files */,
+			);
+			path = JMInfiniteScrollView;
+			sourceTree = "<group>";
+		};
+		05067D3E1D75612300FD2840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05067D3F1D75612300FD2840 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05067D571D75612300FD2840 /* JMInfiniteScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				05067D581D75612300FD2840 /* JMInfiniteScrollViewTests.m */,
+				05067D5A1D75612300FD2840 /* Info.plist */,
+			);
+			path = JMInfiniteScrollViewTests;
+			sourceTree = "<group>";
+		};
+		05067D621D75612300FD2840 /* JMInfiniteScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05067D631D75612300FD2840 /* JMInfiniteScrollViewUITests.m */,
+				05067D651D75612300FD2840 /* Info.plist */,
+			);
+			path = JMInfiniteScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		498F42239CC5813F622D7615 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4310C92DA25DAE1F04749364 /* Pods-JMInfiniteScrollView.debug.xcconfig */,
+				BD0D5CED929780EB415A7795 /* Pods-JMInfiniteScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		751927AA58B8E193D8CB9D30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BB8A2B200ACEC3A25259D0E /* libPods-JMInfiniteScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05067D3A1D75612300FD2840 /* JMInfiniteScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05067D681D75612300FD2840 /* Build configuration list for PBXNativeTarget "JMInfiniteScrollView" */;
+			buildPhases = (
+				996E289AE78C223FCA9CDE33 /* [CP] Check Pods Manifest.lock */,
+				05067D371D75612300FD2840 /* Sources */,
+				05067D381D75612300FD2840 /* Frameworks */,
+				05067D391D75612300FD2840 /* Resources */,
+				01E82090EC3BD7D3355A3814 /* [CP] Embed Pods Frameworks */,
+				8C4876DD444F55A59A4D90C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMInfiniteScrollView;
+			productName = JMInfiniteScrollView;
+			productReference = 05067D3B1D75612300FD2840 /* JMInfiniteScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05067D531D75612300FD2840 /* JMInfiniteScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05067D6B1D75612300FD2840 /* Build configuration list for PBXNativeTarget "JMInfiniteScrollViewTests" */;
+			buildPhases = (
+				05067D501D75612300FD2840 /* Sources */,
+				05067D511D75612300FD2840 /* Frameworks */,
+				05067D521D75612300FD2840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05067D561D75612300FD2840 /* PBXTargetDependency */,
+			);
+			name = JMInfiniteScrollViewTests;
+			productName = JMInfiniteScrollViewTests;
+			productReference = 05067D541D75612300FD2840 /* JMInfiniteScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05067D5E1D75612300FD2840 /* JMInfiniteScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05067D6E1D75612300FD2840 /* Build configuration list for PBXNativeTarget "JMInfiniteScrollViewUITests" */;
+			buildPhases = (
+				05067D5B1D75612300FD2840 /* Sources */,
+				05067D5C1D75612300FD2840 /* Frameworks */,
+				05067D5D1D75612300FD2840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05067D611D75612300FD2840 /* PBXTargetDependency */,
+			);
+			name = JMInfiniteScrollViewUITests;
+			productName = JMInfiniteScrollViewUITests;
+			productReference = 05067D5F1D75612300FD2840 /* JMInfiniteScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05067D331D75612300FD2840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "君陌";
+				TargetAttributes = {
+					05067D3A1D75612300FD2840 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					05067D531D75612300FD2840 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 05067D3A1D75612300FD2840;
+					};
+					05067D5E1D75612300FD2840 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 05067D3A1D75612300FD2840;
+					};
+				};
+			};
+			buildConfigurationList = 05067D361D75612300FD2840 /* Build configuration list for PBXProject "JMInfiniteScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05067D321D75612300FD2840;
+			productRefGroup = 05067D3C1D75612300FD2840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05067D3A1D75612300FD2840 /* JMInfiniteScrollView */,
+				05067D531D75612300FD2840 /* JMInfiniteScrollViewTests */,
+				05067D5E1D75612300FD2840 /* JMInfiniteScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05067D391D75612300FD2840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05067D4E1D75612300FD2840 /* LaunchScreen.storyboard in Resources */,
+				05067D4B1D75612300FD2840 /* Assets.xcassets in Resources */,
+				05067D491D75612300FD2840 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05067D521D75612300FD2840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05067D5D1D75612300FD2840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E82090EC3BD7D3355A3814 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JMInfiniteScrollView/Pods-JMInfiniteScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4876DD444F55A59A4D90C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JMInfiniteScrollView/Pods-JMInfiniteScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		996E289AE78C223FCA9CDE33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05067D371D75612300FD2840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05067D731D75615C00FD2840 /* YBInfiniteScrollView.m in Sources */,
+				05067D461D75612300FD2840 /* ViewController.m in Sources */,
+				05067D431D75612300FD2840 /* AppDelegate.m in Sources */,
+				05067D401D75612300FD2840 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05067D501D75612300FD2840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05067D591D75612300FD2840 /* JMInfiniteScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05067D5B1D75612300FD2840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05067D641D75612300FD2840 /* JMInfiniteScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05067D561D75612300FD2840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05067D3A1D75612300FD2840 /* JMInfiniteScrollView */;
+			targetProxy = 05067D551D75612300FD2840 /* PBXContainerItemProxy */;
+		};
+		05067D611D75612300FD2840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05067D3A1D75612300FD2840 /* JMInfiniteScrollView */;
+			targetProxy = 05067D601D75612300FD2840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05067D471D75612300FD2840 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05067D481D75612300FD2840 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05067D4C1D75612300FD2840 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05067D4D1D75612300FD2840 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05067D661D75612300FD2840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05067D671D75612300FD2840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05067D691D75612300FD2840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4310C92DA25DAE1F04749364 /* Pods-JMInfiniteScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMInfiniteScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJLY.JMInfiniteScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05067D6A1D75612300FD2840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0D5CED929780EB415A7795 /* Pods-JMInfiniteScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMInfiniteScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJLY.JMInfiniteScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05067D6C1D75612300FD2840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JMInfiniteScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJLY.JMInfiniteScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMInfiniteScrollView.app/JMInfiniteScrollView";
+			};
+			name = Debug;
+		};
+		05067D6D1D75612300FD2840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JMInfiniteScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJLY.JMInfiniteScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMInfiniteScrollView.app/JMInfiniteScrollView";
+			};
+			name = Release;
+		};
+		05067D6F1D75612300FD2840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JMInfiniteScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJLY.JMInfiniteScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMInfiniteScrollView;
+			};
+			name = Debug;
+		};
+		05067D701D75612300FD2840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JMInfiniteScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJLY.JMInfiniteScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMInfiniteScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05067D361D75612300FD2840 /* Build configuration list for PBXProject "JMInfiniteScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05067D661D75612300FD2840 /* Debug */,
+				05067D671D75612300FD2840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05067D681D75612300FD2840 /* Build configuration list for PBXNativeTarget "JMInfiniteScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05067D691D75612300FD2840 /* Debug */,
+				05067D6A1D75612300FD2840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05067D6B1D75612300FD2840 /* Build configuration list for PBXNativeTarget "JMInfiniteScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05067D6C1D75612300FD2840 /* Debug */,
+				05067D6D1D75612300FD2840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05067D6E1D75612300FD2840 /* Build configuration list for PBXNativeTarget "JMInfiniteScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05067D6F1D75612300FD2840 /* Debug */,
+				05067D701D75612300FD2840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05067D331D75612300FD2840 /* Project object */;
+}
